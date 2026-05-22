@@ -11,10 +11,11 @@ public class Catalogo {
 
     private String nombre;
     private Double precio;
+    private int stock;
 
     public Catalogo() {}
 
-    public Long getId() {
+     public Long getId() {
         return id;
     }
 
@@ -22,7 +23,22 @@ public class Catalogo {
         return nombre;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getStock() {
+        return stock;
+    }
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
+
     public Double getPrecio() {
         return precio;
+    }
+
+    public void setPrecio(Double precio) {
+        this.precio = precio;
     }
 }

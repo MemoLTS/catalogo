@@ -2,6 +2,8 @@ package com.caso3.api.controller;
 
 import com.caso3.api.model.Catalogo;
 import com.caso3.api.repository.CatalogRepository;
+
+import org.springframework.lang.NonNull;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -23,7 +25,7 @@ public class CatalogController {
     }
 
     @PostMapping
-    public Catalogo guardar(@RequestBody Catalogo catalogo) {
+    public Catalogo guardar(@RequestBody @NonNull Catalogo catalogo) {
         return repo.save(catalogo);
     }
 }

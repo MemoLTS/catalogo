@@ -5,6 +5,7 @@ public class ProductoDTO {
     private Long id;
     private String nombre;
     private Double precio;
+    private int stock;
 
     public ProductoDTO() {
     }
@@ -31,5 +32,11 @@ public class ProductoDTO {
 
     public void setPrecio(Double precio) {
         this.precio = precio;
+    }
+        public int getStock() {
+        return stock;
+    }
+    public void setStock(int stock) {
+        this.stock = stock;
     }
 }
