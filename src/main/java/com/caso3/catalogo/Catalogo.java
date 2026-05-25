@@ -1,4 +1,4 @@
-package com.caso3.api;
+package com.caso3.catalogo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

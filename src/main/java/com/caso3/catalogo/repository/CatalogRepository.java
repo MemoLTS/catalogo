@@ -1,7 +1,8 @@
-package com.caso3.api.repository;
+package com.caso3.catalogo.repository;
 
-import com.caso3.api.model.Catalogo;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.caso3.catalogo.model.Catalogo;
 
 public interface CatalogRepository extends JpaRepository<Catalogo, Long> {
 }

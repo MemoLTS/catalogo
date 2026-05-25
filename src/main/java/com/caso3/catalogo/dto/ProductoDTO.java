@@ -1,22 +1,21 @@
-package com.caso3.api.model;
+package com.caso3.catalogo.dto;
 
-import jakarta.persistence.*;
+public class ProductoDTO {
 
-@Entity
-@Table(name = "productos")
-public class Catalogo {
-
-    @Id
     private Long id;
-
     private String nombre;
     private Double precio;
     private int stock;
 
-    public Catalogo() {}
+    public ProductoDTO() {
+    }
 
-     public Long getId() {
+    public Long getId() {
         return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getNombre() {
@@ -27,18 +26,17 @@ public class Catalogo {
         this.nombre = nombre;
     }
 
-    public int getStock() {
-        return stock;
-    }
-    public void setStock(int stock) {
-        this.stock = stock;
-    }
-
     public Double getPrecio() {
         return precio;
     }
 
     public void setPrecio(Double precio) {
         this.precio = precio;
+    }
+        public int getStock() {
+        return stock;
+    }
+    public void setStock(int stock) {
+        this.stock = stock;
     }
 }

@@ -1,4 +1,4 @@
-package com.caso3.api.exception;
+package com.caso3.catalogo.exception;
 
 
 import java.util.HashMap;

@@ -1,7 +1,8 @@
-package com.caso3.api.service;
+package com.caso3.catalogo.service;
 
-import com.caso3.api.client.ProductClient;
 import org.springframework.stereotype.Service;
+
+import com.caso3.catalogo.client.ProductClient;
 
 @Service
 public class CatalogService {

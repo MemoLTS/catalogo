@@ -1,10 +1,10 @@
-package com.caso3.api.controller;
-
-import com.caso3.api.model.Catalogo;
-import com.caso3.api.repository.CatalogRepository;
+package com.caso3.catalogo.controller;
 
 import org.springframework.lang.NonNull;
 import org.springframework.web.bind.annotation.*;
+
+import com.caso3.catalogo.model.Catalogo;
+import com.caso3.catalogo.repository.CatalogRepository;
 
 import java.util.List;
 

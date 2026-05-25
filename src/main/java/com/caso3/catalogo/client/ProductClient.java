@@ -1,4 +1,4 @@
-package com.caso3.api.client;
+package com.caso3.catalogo.client;
 
 
 import org.springframework.cloud.openfeign.FeignClient;
